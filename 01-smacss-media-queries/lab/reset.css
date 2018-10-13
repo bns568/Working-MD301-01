@@ -19,25 +19,27 @@ body {
         float: left;
         height: 600px;
     }
+    .article-title1 {
+        width: 50%;
+        background-color: #FF5722;
+        height: 150px;
+        float: left;
+    }
+    .article-title2 {
+        width: 50%;
+        background-color: #FF9800;
+        height: 150px;
+        float: left;
+    }
     .article1 {
         width: 50%;
         float: left;
-        height: 450px;
+        height: 300px;
     }
     .article2 {
         width: 50%;
         float: left;
-        height: 450px;
-    }
-    .article-title1 {
-        width: 100%;
-        background-color: #FF5722;
-        height: 150px;
-    }
-    .article-title2 {
-        width: 100%;
-        background-color: #FF9800;
-        height: 150px;
+        height: 300px;
     }
     .article-body1 {
        width: 100%; 
