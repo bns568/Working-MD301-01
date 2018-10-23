@@ -78,7 +78,7 @@ The expected output of "Hello, and have a wonderful day!" is ["and ", "have ", "
 ------------------------------------------------------------------------------------------------ */
 
 const noPunctuation = str => {
-  var patt = /\b.* /g;
+  let patt = /\w+\s+/g;
   return str.match(patt);
 };
 
@@ -112,7 +112,10 @@ Hint: All of these words end with the letters "ells".
 const seashells = 'She sells seashells by the seashore. The shells she sells are surely seashells. So if she sells shells on the seashore, I\'m sure she sells seashore shells.';
 
 const findShells = (str) => {
-  // Solution code here...
+  let patt = /[-.\w]*ells/g;
+  //let patt = /b*$ells/g;
+  //let patt = /s.*ells\b/g;
+  return str.match(patt);
 };
 
 /* ------------------------------------------------------------------------------------------------
